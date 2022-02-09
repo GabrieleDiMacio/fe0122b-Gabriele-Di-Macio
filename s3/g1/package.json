@@ -1,0 +1,17 @@
+{
+  "name": "g1",
+  "version": "1.0.0",
+  "description": "s3g1",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass SCSS/style.scss css/style.css -w"
+  },
+  "keywords": [
+    "esercizio"
+  ],
+  "author": "Gabriele",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
