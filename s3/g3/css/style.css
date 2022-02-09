@@ -1,0 +1,19 @@
+h1, h2{
+    text-align: center;
+}
+
+.esercizio1{
+    background-color: blue; color: white; padding: 3; border: 1px solid;
+}
+
+.esercizio2{
+    background-color: yellow; color: black; padding: 3; border: 1px solid;
+}
+
+.esercizio3{
+    background-color: green; color: white; padding: 3; border: 1px solid;
+}
+
+.esercizio4{
+    background-color: red; color: white; padding: 3; border: 1px solid;
+}
