@@ -1,0 +1,8 @@
+@function contrasto($testo-nav){
+    @if (lightness($testo-nav) > 50){
+        @return $title-color;
+    }
+}
+h1, h2{
+    background-color:contrasto($testo-nav) ;
+    $colore:rgb(240, 240, 240);}
