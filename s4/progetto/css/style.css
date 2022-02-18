@@ -1,0 +1,33 @@
+.centro{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.content {
+    margin-left: 2px;
+}
+.tasto {
+    background-color: lightgrey;
+    color:blue;
+    font-size: 22pt;
+    border: none;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+.display {
+    background: none;
+    color: blue;
+    font-size: 24pt;
+    border: blue solid 2px;
+    margin: 4px 2px;
+    width: 204px;
+    height: 40px;           
+}
+.uguale {
+    width: 208px;
+}
+
+.tasto, .display, .uguale{
+    border-radius: 8px;
+}
