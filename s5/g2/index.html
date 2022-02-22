@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio S5 g2</title>
+</head>
+<body>
+    <p id="prova"></p>
+    <script>
+       var budget = 1000;
+
+       while (budget >= 0){
+
+           console.log(budget);
+           budget -= random(10, 100);
+           if(budget < 550 && budget > 470){
+               console.log('sei circa a metà budget')
+            }
+            
+            if(budget > 10 && budget < 70){
+                console.log('sei quasi alla fine del budget');
+            }   
+            
+            if(budget <= 1){
+                console.log('sei al verde');
+                break
+            }
+       }
+
+       function random(min, max){
+           return Math.floor(Math.random() * (max-min) + min);
+       }
+
+    </script>
+<script src="js/script.js"></script>
+</body>
+</html>
