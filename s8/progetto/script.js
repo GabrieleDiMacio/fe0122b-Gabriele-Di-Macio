@@ -24,7 +24,7 @@ var Abbigliamento = /** @class */ (function () {
         return Math.floor(this.prezzoivainclusa * (this.saldo / 100));
     };
     Abbigliamento.prototype.getacquistocapo = function () {
-        return Math.floor(this.prezzoivaesclusa - this.getsaldocapo());
+        return Math.floor(this.prezzoivainclusa - this.getsaldocapo());
     };
     return Abbigliamento;
 }());
@@ -32,11 +32,11 @@ var kenzo = new Abbigliamento(6, 1003, "autunno", "felpa", 2522, 26, "blue", 120
 console.log(kenzo);
 console.log(kenzo.getsaldocapo());
 console.log(kenzo.getacquistocapo());
-var armani = new Abbigliamento(7, 1200, "inverno", "giacchetto", 1500, 30, "red", 180, 216, "magazzino", 50);
+var armani = new Abbigliamento(7, 1200, "inverno", "giacchetto", 1500, 30, "red", 180, 219.6, "magazzino", 50);
 console.log(armani);
 console.log(armani.getsaldocapo());
 console.log(armani.getacquistocapo());
-var supreme = new Abbigliamento(8, 800, "estate", "maglietta", 1000, 70, "white", 90, 108, "magazzino", 50);
+var supreme = new Abbigliamento(8, 800, "estate", "maglietta", 1000, 70, "white", 90, 109.8, "magazzino", 50);
 console.log(supreme);
 console.log(supreme.getsaldocapo());
 console.log(supreme.getacquistocapo());

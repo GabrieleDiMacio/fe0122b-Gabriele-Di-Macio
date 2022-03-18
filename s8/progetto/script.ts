@@ -41,7 +41,7 @@ class Abbigliamento {
     }
 
     getacquistocapo(): number {
-        return Math.floor(this.prezzoivaesclusa - this.getsaldocapo())
+        return Math.floor(this.prezzoivainclusa- this.getsaldocapo())
     }
 }
 
@@ -51,13 +51,13 @@ console.log(kenzo)
 console.log(kenzo.getsaldocapo())
 console.log(kenzo.getacquistocapo())
 
-let armani = new Abbigliamento(7,1200, "inverno","giacchetto", 1500, 30, "red",180, 216,"magazzino",50)
+let armani = new Abbigliamento(7,1200, "inverno","giacchetto", 1500, 30, "red",180, 219.6,"magazzino",50)
 
 console.log(armani)
 console.log(armani.getsaldocapo())
 console.log(armani.getacquistocapo())
 
-let supreme = new Abbigliamento(8, 800, "estate", "maglietta",1000, 70, "white" ,90, 108, "magazzino", 50 )
+let supreme = new Abbigliamento(8, 800, "estate", "maglietta",1000, 70, "white" ,90, 109.8, "magazzino", 50 )
 
 console.log(supreme)
 console.log(supreme.getsaldocapo())
